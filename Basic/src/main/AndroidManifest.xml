@@ -11,7 +11,10 @@
 
     <uses-feature
         android:glEsVersion="0x00020000"
-        android:required="true"/>
+        android:required="true" />
+    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true" />
+    <uses-feature android:name="android.hardware.sensor.compass"  android:required="true" />
+    <uses-feature android:name="android.hardware.sensor.gyroscope"  android:required="true" />
 
     <application
         android:allowBackup="true"
@@ -26,10 +29,10 @@
             android:value="@string/google_maps_key" />
         <meta-data
             android:name="com.indooratlas.android.sdk.API_KEY"
-            android:value="@string/indooratlas_api_key" />
+            android:value="ca04d9b2-d080-43e8-9adc-3b2ae135813c" />
         <meta-data
             android:name="com.indooratlas.android.sdk.API_SECRET"
-            android:value="@string/indooratlas_api_secret" />
+            android:value="AF3qOqO9/uMJraWBQiZgWlDa8wnsEUFwQqBDt9AMEdb1X9ADdU1w5yDfCQGECIfE6KHwt+pI1V9H8+vngloDs29p2h42XxE/LMqlWTbTIgaGNMt6Fz31FqnulVYLjQ==" />
 
         <activity
             android:name=".ListExamplesActivity"
